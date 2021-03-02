@@ -1,7 +1,8 @@
 {
   "name": "@linzjs/tile-matrix-set",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
   "repository": "git@github.com:linz/NZTM2000TileMatrixSet.git",
   "author": {
     "name": "Land Information New Zealand",
@@ -21,5 +22,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "files": ["build/**", "raw/*"]
 }
