@@ -1,0 +1,24 @@
+{
+  "name": "@linzjs/tile-matrix-set",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:linz/NZTM2000TileMatrixSet.git",
+  "author": {
+    "name": "Land Information New Zealand",
+    "url": "https://linz.govt.nz",
+    "organization": true
+  },
+  "scripts": {
+    "build": "tsc",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "lint": "npx eslint {src/**,*.js}"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@linzjs/style": "^1.1.0",
+    "conventional-changelog": "^3.1.24"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
