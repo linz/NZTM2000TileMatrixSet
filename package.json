@@ -11,7 +11,8 @@
   "scripts": {
     "build": "tsc",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "lint": "npx eslint {src/**,*.js}"
+    "lint": "npx eslint {src/**,*.js}",
+    "generate": "node ./write-json.js"
   },
   "license": "MIT",
   "devDependencies": {
