@@ -1,13 +1,13 @@
 # LINZ Tile Matrix Sets
 
-This repository houses the LINZ's official [Tile Matrix Sets (TMS)](https://www.ogc.org/standards/tms) for NZTM2000 ([EPGS:2193](http://epsg.io/2193))
+This repository houses the LINZ's official [Tile Matrix Sets (TMS)](https://www.ogc.org/standards/tms) for [NZTM2000](https://www.linz.govt.nz/data/geodetic-system/datums-projections-and-heights/projections/new-zealand-transverse-mercator-2000) ([EPGS:2193](http://epsg.io/2193))
 
 - [NZTM2000Quad](./raw/NZTM2000Quad.json)
 - [NZTM2000](./raw/NZTM2000.json)
 
 ## NZTM2000Quad (March 2021 [DRAFT])
 
-The NZTM2000 Quad TMS is new tile matrix set to provide greater interoperability with LINZs NZTM2000 web services (such as [LINZ's Basemaps](https://basemaps.linz.govt.nz) ) and third parties.
+The NZTM2000 Quad TMS is new tile matrix set to provide greater interoperability with LINZ's NZTM2000 web services (such as [LINZ's Basemaps](https://basemaps.linz.govt.nz) ) and third parties.
 Key Features:
 
 - All zoom scales are from Google's [WebMercatorQuad](https://docs.opengeospatial.org/is/17-083r2/17-083r2.html#62)
