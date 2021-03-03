@@ -23,5 +23,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["build/**", "raw/*"]
+  "files": ["build/src/**", "raw/*"]
 }
