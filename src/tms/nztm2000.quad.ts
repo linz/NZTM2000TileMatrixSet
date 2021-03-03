@@ -1,6 +1,6 @@
 import { TileMatrixSetType } from '../tile.matrix';
 
-export const Nztm2000QuadTileMatrixSet: TileMatrixSetType = {
+export const Nztm2000Quad: TileMatrixSetType = {
   type: 'TileMatrixSetType',
   title: 'LINZ NZTM2000 Map Tile Grid V2',
   abstract: '',
