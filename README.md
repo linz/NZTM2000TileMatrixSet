@@ -17,6 +17,7 @@ Key Features:
 - The map is centered on the beehive
  
 ![NztmQuad - Zoom 1](./NztmQuadZ1.png)
+
 *Tiles  shown above were generated with [xyz-tile-debug](https://github.com/blacha/xyz-tile-debug), showing Tile x,y offset, Quadkey and zoom level*
 
 
