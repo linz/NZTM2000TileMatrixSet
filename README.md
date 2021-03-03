@@ -17,7 +17,7 @@ Key Features:
 
 - All zoom scales are from Google's WebMercatorQuad
 - Tile matrix extent and tile extent are the same
-- All zoom levels are square to work with techniques like quad keys
+- All zoom levels are square to work with techniques like [quad keys](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system#tile-coordinates-and-quadkeys)
 - All zoom levels increase by a factor of two
 - The map is centered on the beehive
  
