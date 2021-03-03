@@ -5,7 +5,7 @@ This repository houses the LINZ's official [Tile Matrix Sets (TMS)](https://www.
 - [NZTM2000Quad](./raw/NZTM2000Quad.json)
 - [NZTM2000](./raw/NZTM2000.json)
 
-## NZTM2000Quad (March 2021 [DRAFT])
+## NZTM2000Quad (March 2021 [**Preview**])
 
 The NZTM2000 Quad TMS is new tile matrix set to provide greater interoperability with LINZ's NZTM2000 web services (such as [LINZ's Basemaps](https://basemaps.linz.govt.nz) ) and third parties.
 Key Features:
