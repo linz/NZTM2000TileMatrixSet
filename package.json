@@ -13,12 +13,15 @@
     "build": "tsc",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "lint": "npx eslint {src/**,*.js}",
+    "test": "ospec --globs 'build/**/*.test.js'",
     "generate": "node ./write-json.js"
   },
   "license": "MIT",
   "devDependencies": {
     "@linzjs/style": "^1.1.0",
-    "conventional-changelog-cli": "^2.1.1"
+    "@types/ospec": "^4.0.2",
+    "conventional-changelog-cli": "^2.1.1",
+    "ospec": "^4.1.1"
   },
   "publishConfig": {
     "access": "public"
