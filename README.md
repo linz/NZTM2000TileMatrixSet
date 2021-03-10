@@ -15,7 +15,7 @@ The NZTM2000 Quad TMS is a new tile matrix set to provide greater interoperabili
 - Tile matrix extent and tile extent are the same
 - All zoom levels are square to work with techniques like [quad keys](https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system#tile-coordinates-and-quadkeys)
 - All zoom levels increase by a factor of two
-- The map is centred on the beehive
+- The map is centred on [The Beehive](https://en.wikipedia.org/wiki/Beehive_(New_Zealand))
  
 ![NztmQuad - Zoom 1](./NztmQuadZ1.png)
 
