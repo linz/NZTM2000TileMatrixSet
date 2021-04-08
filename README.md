@@ -9,6 +9,11 @@ This repository houses LINZ's official [Tile Matrix Sets (TMS)](https://www.ogc.
 
 The NZTM2000 Quad TMS is a new tile matrix set to provide greater interoperability between LINZ's NZTM2000 web services (such as [LINZ's Basemaps](https://basemaps.linz.govt.nz)) and third parties.
 
+### Demo
+
+Basemaps [Web](https://basemaps.linz.govt.nz/?p=nztm2000quad) [WMTS](https://basemaps.linz.govt.nz/v1/tiles/aerial/NZTM2000Quad/WMTSCapabilities.xml?api=c01f1bz5t1fj1d6qg037h25g9n5)
+
+
 ### Key Features
 
 - All zoom scales are from Google's [WebMercatorQuad](https://docs.opengeospatial.org/is/17-083r2/17-083r2.html#62)
