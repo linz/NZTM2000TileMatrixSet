@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@linzjs/style": "^3.7.0",
+    "@linzjs/style": "^3.13.0",
     "@types/ospec": "^4.0.2",
     "conventional-changelog-cli": "^2.1.1",
     "ospec": "^4.1.1"
