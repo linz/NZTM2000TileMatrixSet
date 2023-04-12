@@ -20,7 +20,7 @@
     "build": "tsc",
     "lint": "npx eslint . --ignore-path .gitignore",
     "test": "ospec --globs 'build/**/*.test.js'",
-    "generate": "node ./write-json.js"
+    "generate": "node ./scripts/write.json.mjs && yarn run lint --fix"
   },
   "license": "MIT",
   "devDependencies": {
