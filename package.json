@@ -9,6 +9,7 @@
     "url": "https://linz.govt.nz",
     "organization": true
   },
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
