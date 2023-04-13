@@ -25,8 +25,8 @@
   "license": "MIT",
   "devDependencies": {
     "@linzjs/style": "^3.16.0",
-    "@types/ospec": "^4.0.2",
-    "ospec": "^4.1.1"
+    "@types/ospec": "^4.0.5",
+    "ospec": "^4.2.0"
   },
   "publishConfig": {
     "access": "public"
