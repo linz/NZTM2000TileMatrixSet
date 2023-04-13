@@ -1,5 +1,5 @@
 import o from 'ospec';
-import { Nztm2000Quad } from '../nztm2000.quad';
+import { Nztm2000Quad } from '../nztm2000.quad.js';
 
 o.spec('NZTM2000Quad', () => {
   /** Floating points need to be within this number to be the same */

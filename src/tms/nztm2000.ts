@@ -1,4 +1,4 @@
-import { TileMatrixSetType } from '../tile.matrix';
+import { TileMatrixSetType } from '../tile.matrix.js';
 
 export const Nztm2000: TileMatrixSetType = {
   type: 'TileMatrixSetType',

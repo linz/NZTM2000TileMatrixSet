@@ -3,24 +3,29 @@
   "version": "0.0.1",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
-  "repository": "git@github.com:linz/NZTM2000TileMatrixSet.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linz/NZTM2000TileMatrixSet.git"
+  },
   "author": {
     "name": "Land Information New Zealand",
     "url": "https://linz.govt.nz",
     "organization": true
   },
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "scripts": {
     "build": "tsc",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "lint": "npx eslint {src/**,*.js}",
+    "lint": "npx eslint . --ignore-path .gitignore",
     "test": "ospec --globs 'build/**/*.test.js'",
-    "generate": "node ./write-json.js"
+    "generate": "node ./scripts/write.json.mjs && yarn run lint --fix"
   },
   "license": "MIT",
   "devDependencies": {
     "@linzjs/style": "^3.16.0",
     "@types/ospec": "^4.0.2",
-    "conventional-changelog-cli": "^2.2.2",
     "ospec": "^4.1.1"
   },
   "publishConfig": {
