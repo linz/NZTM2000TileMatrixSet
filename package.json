@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@linzjs/style": "^3.16.0",
+    "@linzjs/style": "^4.0.0",
     "@types/ospec": "^4.0.5",
     "ospec": "^4.2.0"
   },
