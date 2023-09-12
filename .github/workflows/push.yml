@@ -10,13 +10,13 @@ jobs:
       - uses: linz/action-typescript@v3
 
       - name: Generate JSON
-        run: yarn run generate
+        run: npm run generate
 
       - name: Validate Generated
         run: git diff --exit-code
 
       - name: Publish to NPM
         if: startsWith(github.ref, 'refs/tags/v')
-        run: yarn publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN_LINZJS}}
